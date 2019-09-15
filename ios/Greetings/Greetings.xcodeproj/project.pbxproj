@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1FD1999232E1EF4000143C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD1998232E1EF4000143C2 /* AppDelegate.swift */; };
+		C1FD199B232E1EF4000143C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD199A232E1EF4000143C2 /* ViewController.swift */; };
+		C1FD199E232E1EF4000143C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FD199C232E1EF4000143C2 /* Main.storyboard */; };
+		C1FD19A0232E1EF5000143C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FD199F232E1EF5000143C2 /* Assets.xcassets */; };
+		C1FD19A3232E1EF5000143C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FD19A1232E1EF5000143C2 /* LaunchScreen.storyboard */; };
+		C1FD19AE232E1F73000143C2 /* libgreetings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FD19AD232E1F73000143C2 /* libgreetings.a */; };
+		C1FD19B0232E1F82000143C2 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FD19AF232E1F82000143C2 /* libresolv.tbd */; };
+		C1FD19B3232E2052000143C2 /* RustGreetings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD19B2232E2052000143C2 /* RustGreetings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1FD1995232E1EF4000143C2 /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FD1998232E1EF4000143C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1FD199A232E1EF4000143C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1FD199D232E1EF4000143C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1FD199F232E1EF5000143C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1FD19A2232E1EF5000143C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1FD19A4232E1EF5000143C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1FD19AB232E1F3F000143C2 /* greetings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = greetings.h; sourceTree = "<group>"; };
+		C1FD19AD232E1F73000143C2 /* libgreetings.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgreetings.a; path = ../../cargo/target/universal/release/libgreetings.a; sourceTree = "<group>"; };
+		C1FD19AF232E1F82000143C2 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		C1FD19B1232E1F9A000143C2 /* Greetings-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Greetings-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1FD19B2232E2052000143C2 /* RustGreetings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustGreetings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1FD1992232E1EF4000143C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FD19B0232E1F82000143C2 /* libresolv.tbd in Frameworks */,
+				C1FD19AE232E1F73000143C2 /* libgreetings.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1FD198C232E1EF4000143C2 = {
+			isa = PBXGroup;
+			children = (
+				C1FD1997232E1EF4000143C2 /* Greetings */,
+				C1FD1996232E1EF4000143C2 /* Products */,
+				C1FD19AC232E1F73000143C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1FD1996232E1EF4000143C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1FD1995232E1EF4000143C2 /* Greetings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1FD1997232E1EF4000143C2 /* Greetings */ = {
+			isa = PBXGroup;
+			children = (
+				C1FD19AA232E1F07000143C2 /* rust */,
+				C1FD1998232E1EF4000143C2 /* AppDelegate.swift */,
+				C1FD199A232E1EF4000143C2 /* ViewController.swift */,
+				C1FD199C232E1EF4000143C2 /* Main.storyboard */,
+				C1FD199F232E1EF5000143C2 /* Assets.xcassets */,
+				C1FD19A1232E1EF5000143C2 /* LaunchScreen.storyboard */,
+				C1FD19A4232E1EF5000143C2 /* Info.plist */,
+			);
+			path = Greetings;
+			sourceTree = "<group>";
+		};
+		C1FD19AA232E1F07000143C2 /* rust */ = {
+			isa = PBXGroup;
+			children = (
+				C1FD19AB232E1F3F000143C2 /* greetings.h */,
+				C1FD19B1232E1F9A000143C2 /* Greetings-Bridging-Header.h */,
+				C1FD19B2232E2052000143C2 /* RustGreetings.swift */,
+			);
+			path = rust;
+			sourceTree = "<group>";
+		};
+		C1FD19AC232E1F73000143C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1FD19AF232E1F82000143C2 /* libresolv.tbd */,
+				C1FD19AD232E1F73000143C2 /* libgreetings.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1FD1994232E1EF4000143C2 /* Greetings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1FD19A7232E1EF5000143C2 /* Build configuration list for PBXNativeTarget "Greetings" */;
+			buildPhases = (
+				C1FD1991232E1EF4000143C2 /* Sources */,
+				C1FD1992232E1EF4000143C2 /* Frameworks */,
+				C1FD1993232E1EF4000143C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Greetings;
+			productName = Greetings;
+			productReference = C1FD1995232E1EF4000143C2 /* Greetings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1FD198D232E1EF4000143C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "YOHEI OKAYA";
+				TargetAttributes = {
+					C1FD1994232E1EF4000143C2 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = C1FD1990232E1EF4000143C2 /* Build configuration list for PBXProject "Greetings" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1FD198C232E1EF4000143C2;
+			productRefGroup = C1FD1996232E1EF4000143C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1FD1994232E1EF4000143C2 /* Greetings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1FD1993232E1EF4000143C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FD19A3232E1EF5000143C2 /* LaunchScreen.storyboard in Resources */,
+				C1FD19A0232E1EF5000143C2 /* Assets.xcassets in Resources */,
+				C1FD199E232E1EF4000143C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1FD1991232E1EF4000143C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FD19B3232E2052000143C2 /* RustGreetings.swift in Sources */,
+				C1FD199B232E1EF4000143C2 /* ViewController.swift in Sources */,
+				C1FD1999232E1EF4000143C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1FD199C232E1EF4000143C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1FD199D232E1EF4000143C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1FD19A1232E1EF5000143C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1FD19A2232E1EF5000143C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1FD19A5232E1EF5000143C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1FD19A6232E1EF5000143C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1FD19A8232E1EF5000143C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38A7ZBRVUJ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Greetings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../cargo/target/universal/release";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conpany.Greetings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Greetings/rust/Greetings-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1FD19A9232E1EF5000143C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38A7ZBRVUJ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Greetings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../cargo/target/universal/release";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conpany.Greetings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Greetings/rust/Greetings-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1FD1990232E1EF4000143C2 /* Build configuration list for PBXProject "Greetings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FD19A5232E1EF5000143C2 /* Debug */,
+				C1FD19A6232E1EF5000143C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1FD19A7232E1EF5000143C2 /* Build configuration list for PBXNativeTarget "Greetings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FD19A8232E1EF5000143C2 /* Debug */,
+				C1FD19A9232E1EF5000143C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1FD198D232E1EF4000143C2 /* Project object */;
+}
